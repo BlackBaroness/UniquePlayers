@@ -1,0 +1,5 @@
+name: UniquePlayers
+version: ${project.version}
+main: baroness.plugins.Core
+authors: [Black_Baroness]
+website: https://vk.com/baroness_plugins
