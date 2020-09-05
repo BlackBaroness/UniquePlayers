@@ -87,6 +87,7 @@ public class UniquePlayers extends JavaPlugin implements Listener, CommandExecut
         if (args.length == 1) {
             if (args[0].equals("stats")) {
                 say(p, "Уникальных игроков в базе данных: " + ChatColor.GOLD + data.getData().size());
+                return true;
             }
             if (args[0].equals("tofile")) {
                 say(p, "Начинаю выгрузку базы данных уникальных игроков.");
