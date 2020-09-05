@@ -218,7 +218,7 @@ public class UniquePlayers extends JavaPlugin implements Listener, CommandExecut
                 if (progress) return;
 
                 Date date = new Date();
-                SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd hh:mm");
+                SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm");
                 String dateString = format.format(date);
                 data.addNew(new PlayerData(nick, dateString));
                 save();
