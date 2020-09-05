@@ -26,7 +26,7 @@ public class SaveThread extends Thread {
             @Override
             public void run() {
                 try {
-                    File file = new File(core.getDataFolder() + File.separator + "quests");
+                    File file = new File(core.getDataFolder() + File.separator + "data");
                     ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(file));
                     oos.writeObject(collector);
                     oos.close();
