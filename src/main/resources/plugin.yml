@@ -1,5 +1,8 @@
 name: UniquePlayers
 version: ${project.version}
-main: baroness.plugins.Core
+main: ru.sapphirelife.UniquePlayers
 authors: [Black_Baroness]
 website: https://vk.com/baroness_plugins
+commands:
+  up:
+    usage: /up
